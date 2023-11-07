@@ -1,0 +1,53 @@
+
+.main-container{
+  background-color: #303F9F;
+  display: flex;
+}
+
+.custom-icon {
+  color: #C5CAE9;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80px;
+  height: 100vh;
+  background-color: #1A237E;
+  transition: 0.5s;
+  overflow-x: hidden;
+  position: relative;
+}
+.sidebar.open {
+  width: 300px;
+}
+
+.brand{
+  align-self: flex-start;
+  margin: 10px 0px;
+}
+
+.nav-list{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list {
+  display: flex;
+  align-items: center;
+  margin: 15px 5px 15px 5px;
+}
+.menu-text {
+  margin-left: 15px;
+}
+
+
+.card{
+  background-color: #9FA8DA;
+}
+
+.img1 {
+  width: 100%;
+}
