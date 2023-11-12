@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Card, Row, Col } from 'react-bootstrap';
-
+import Chosen from '../../../images/img1.gif';
 const names = ["Sean  McCarthy", "Joshua  Minchew",
 "Anthony  Quinones", "Robert  Toth",
 "Joshua  Kim", "Mason  Dykstra",
@@ -22,7 +22,7 @@ const RandomResultCard = () => {
   const getRandomName = () => {
     const randomIndex = Math.floor(Math.random() * names.length);
     setRandomName(names[randomIndex]);
-    setImage('src/images/img1.gif');
+    setImage(Chosen);
   };
 
   return (

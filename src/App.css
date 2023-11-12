@@ -1,68 +1,69 @@
-/* .body{
+
+
+/* Student Page Css */
+.student-page{
   background-color: gainsboro;
-} */
-
-/* #hangman{
-  width: 80%;
-  border: 1px solid black;
-  box-shadow: 10px 10px 5px #440303;
+  height: 100%;
+  padding: 40px;
 }
 
-form {
-  margin: 20px;
+/* CSS for React Flipping Card  */
+.student-card {
+  width: 14rem;
+  height: 20rem;
+  padding: 0;
+/* Adjust the shadow properties as needed */
+}
+.card{
+  margin: 8px;
+  /* transition: transform 0.2s ease; */
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1); 
+}
+.card-front {
+  width: 90%;
+  height: 18.5rem;
 }
 
-
-nav {
-  display: flex ;
-  flex-direction: column;
-  
+.card-img-top.front{
+  margin-top: 40px;
 }
-
-nav ul {
+.card-body{
+  text-align: center;
+}
+.card-title{
+  margin: 5px;
+  margin-bottom: 20px;
+  font-size: medium;
+}
+.links{
   display: flex;
-  border: 2px solid black;
-  justify-content: space-evenly;
-  background-color: rgb(2, 71, 71);
-  padding: 10px;
-  border-radius: 50px;
-}
-nav ul li{
-  list-style: none;
-  
-}
-nav ul li a{
-  color: antiquewhite;
-  text-decoration: none;
-}
-
-#btn{
-  display: flex;
+  margin-top: 10px;
   justify-content: center;
 }
-#btn-container{
-  align-self: center;
-  margin-left: 250px ;
+
+/* Css for Button Icons Github and Linked In */
+.btn.btn-primary {
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid white;
+  padding: 2px;
 }
 
-#task-list{
-  text-align: start;
-  font-size: 18px;
-}
-.dlt-btn-container {
+/* This are home page Css */
+
+.home-page{
+  background-color: gainsboro;
+  height: 100%;
+  padding: 40px;
   display: flex;
-  margin: 10px;
+  flex-direction: column;
+  align-items: center;
 }
-.icon {
-  font-size: 20px;
+.home-page .box{
+  border: 2px solid black;
+  width: 80%;
+  height: 70vh;
 }
 
-#app-container {
- 
-  margin-top: 20px;
-  padding: 20px;
-  display: flexbox;
-  border: 1px solid black;
-  box-shadow: 10px 10px 5px #440303;
-  background-color: white;
-} */
+
+

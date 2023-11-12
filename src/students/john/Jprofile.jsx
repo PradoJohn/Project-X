@@ -35,13 +35,16 @@ function Jprofile(){
             <Navbar.Brand onClick={toggleSidebar} className='brand'><HiFire className='custom-icon mt-2' size={45} /></Navbar.Brand>
             <ul className="nav-list">
               <li className ='list' href="#home"><span><RxDashboard  className= 'custom-icon' size={35}/> </span>
-              {isOpen? <h3 className='ml-10' style={{color: 'white'}}>RxDashboard</h3>: null}</li>
+              {isOpen? <h3 className='menu-link' style={{color: 'white'}}>RxDashboard</h3>: null}</li>
+
               <li className ='list' href="#about"><FaServicestack className= 'custom-icon' size={35}/>
-              {isOpen?<h3 className='ml-10' style={{color: 'white'}}>FaService</h3>:null}</li>
+              {isOpen?<h3 className='menu-link' style={{color: 'white'}}>FaService</h3>:null}</li>
+
               <li className ='list' href="#services"><FaHorse className= 'custom-icon' size={35}/>
-              {isOpen?<h3 className='ml-10' style={{color: 'white'}}>FaHorse</h3>:null}</li>
+              {isOpen?<h3 className='menu-link' style={{color: 'white'}}>FaHorse</h3>:null}</li>
+              
               <li className ='list' href="#contact"><FaBars className= 'custom-icon' size={35}/>
-              {isOpen?<h3 className='ml-10' style={{color: 'white'}}>FaBars</h3>:null}</li>
+              {isOpen?<h3 className='menu-link' style={{color: 'white'}}>FaBars</h3>:null}</li>
             </ul>
         </div>
         <div className='main-content pl-10'>

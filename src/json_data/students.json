@@ -1,22 +1,133 @@
 [
   {
-    "name": "Bryan Bartell",
-    "description": "Check out my personal profile and group projects and have fun with it.",
-    "profileLink": "/bryan"
-  },
-  {
-    "name":" Chad Martin",
-    "description": "Check out my personal profile and group projects and have fun with it.",
-    "profileLink": "/chad"
-  },
-  {
     "name": "John Prado",
-    "description": "Check out my personal profile and group projects and have fun with it.",
-    "profileLink": "/john"
+    "github": "https://github.com/PradoJohn",
+    "linkedin": "https://www.linkedin.com/in/john-prado-01876523a/"
   },
   {
-    "name": "Johnny Bravo",
-    "description": "Check out my personal profile and group projects and have fun with it.",
-    "profileLink": "/john"
+    "name": "Bryan Bartell",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Chad Martin",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Kate  Fischer",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Aaron  Tanner",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Claireese  Underwood",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Phu  Bui",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Frank  Gary",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Matthew  Peterson",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Cody  Hardy",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Anna  Scriven",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Michael  Termotto",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Kendra  Moore",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Halsey  Filbin",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Andrew  Hagstrom",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Megan  Buck",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Eric  Mitchell",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Caleb  Davis",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Sean  McCarthy",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Derek  Marion",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Matthew  Lewis",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Mason  Dykstra",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Joshua  Kim",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Robert  Toth",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Anthony  Quinones",
+    "github": "#",
+    "linkedin": "#"
+  },
+  {
+    "name": "Joshua  Minchew",
+    "github": "#",
+    "linkedin": "#"
   }
+
 ]

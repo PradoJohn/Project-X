@@ -11,13 +11,12 @@ import {
 
 function Assignments(){
 
-
   const assignmentData = [
     {
       title: 'Hangman',
       description: 'Word-guessing game',
       playLink: '/hangman',
-      collaborators: ['Bryan', 'Chad', 'John'],
+      collaborators: ['Bryan', 'John'],
     },
     {
       title: 'Pokemon',
@@ -31,17 +30,11 @@ function Assignments(){
       playLink: '/guessing-game',
       collaborators: ['John', 'Kate'],
     },
-    {
-      title: 'Pokemon',
-      description: 'Play around with Pokemon API.',
-      playLink: '/pokemon',
-      collaborators: ['Bryan', 'Mason'],
-    },
   ];
 
   return (
     <>
-    <Container fluid  >
+    <Container fluid>
       <Row>
         <h1 className='flex justify-center mb-3'>Assignment Page</h1>
         {assignmentData.map((assignment, index) => (

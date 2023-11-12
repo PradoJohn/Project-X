@@ -8,21 +8,7 @@
   color: #C5CAE9;
 }
 
-.sidebar{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 80px;
-  height: 100vh;
-  background-color: #1A237E;
-  transition: 0.5s;
-  overflow-x: hidden;
-  position: relative;
-}
-.sidebar.open {
-  width: 300px;
-}
+
 
 .brand{
   align-self: flex-start;
@@ -50,4 +36,107 @@
 
 .img1 {
   width: 100%;
+}
+
+
+@media screen and (max-width: 430px) and (min-resolution: 2dppx) {
+  /* Your CSS styles for the iPhone 14 Pro Max (if known dimensions match these values) */
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1A237E;
+    transition: 0.5s;
+    overflow-x: hidden;
+    position: relative;
+    padding-left: 5px;
+  }
+  
+  .sidebar.open {
+    width: 250vw;
+  }
+  .menu-link{
+    margin-left: 5px;
+    font-size: 12px;
+  }
+}
+
+/* Small screens*/
+@media screen and (min-width: 431px) and (max-width: 767px) {
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1A237E;
+    transition: 0.5s;
+    overflow-x: hidden;
+    position: relative;
+  }
+  .sidebar.open {
+    width: 25vw;
+  }
+  .menu-link{
+    font-size: 15px;
+    margin-left: 10px;
+
+  }
+
+  
+}
+
+/* Medium screens*/
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80px;
+    height: 100vh;
+    background-color: #1A237E;
+    transition: 0.5s;
+    overflow-x: hidden;
+    position: relative;
+    padding-left: 5px;
+  }
+  
+  .sidebar.open {
+    width: 25vw;
+  }
+  .menu-link{
+    margin-left: 10px;
+    font-size: 15px;
+  }
+}
+
+/* Large screens */
+@media screen and (min-width: 1201px) {
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80px;
+    height: 100vh;
+    background-color: #1A237E;
+    transition: 0.5s;
+    overflow-x: hidden;
+    position: relative;
+    padding-left: 5px;
+  }
+  
+  .sidebar.open {
+    width: 20vw;
+  }
+  .menu-link{
+    margin-left: 10px;
+    font-size: 25px;
+  }
 }
