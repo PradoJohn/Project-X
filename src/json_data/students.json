@@ -2,12 +2,14 @@
   {
     "name": "John Prado",
     "github": "https://github.com/PradoJohn",
-    "linkedin": "https://www.linkedin.com/in/john-prado-01876523a/"
+    "linkedin": "https://www.linkedin.com/in/john-prado-01876523a/",
+    "image": "img1.jpg"
   },
   {
     "name": "Bryan Bartell",
     "github": "#",
-    "linkedin": "#"
+    "linkedin": "#",
+    "image": "img2.jpg"
   },
   {
     "name": "Chad Martin",

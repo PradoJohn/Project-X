@@ -1,7 +1,7 @@
 import './Header.css'
 import { Link } from 'react-router-dom';
-import { Container, Nav, Navbar } from 'react-bootstrap';
-import { FaCodepen } from 'react-icons/fa';
+import { Container, Nav, Navbar, Form, Button } from 'react-bootstrap';
+import { FaCodepen, FaSearch } from 'react-icons/fa';
 
 function Header() {
   return (
@@ -14,8 +14,8 @@ function Header() {
           </h2>
         </Navbar.Brand>
         <Nav className="nav-links">
-          <Link className="nav-link text-white" to='/students/'>STUDENTS</Link>
-          <Link className="nav-link text-white" to='/assignments/'>ASSIGNMENTS</Link>
+          <Link className="nav-link text-white" as={Link} to='/students/'>STUDENTS</Link>
+          <Link className="nav-link text-white" as={Link} to='/assignments/'>ASSIGNMENTS</Link>
         </Nav>
       </Navbar>
     </>
