@@ -37,7 +37,7 @@ function Students() {
           {/* Shuffle Button */}
           <Button
             variant='primary'
-            className='px-3 mt-3 text-white'
+            className='btn-shuffle px-3 mt-3 text-white'
             style={{ background: '#03095f', fontWeight: 'bold' }}
             onClick={shuffleCards}
           >

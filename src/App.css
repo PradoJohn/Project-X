@@ -17,7 +17,7 @@
 .card{
   margin: 8px;
   /* transition: transform 0.2s ease; */
-  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1); 
+  box-shadow: 2px 2px 15px rgb(1, 1, 105); 
 }
 .card-front {
   width: 90%;
@@ -43,6 +43,15 @@
   display: flex;
   margin-top: 10px;
   justify-content: center;
+}
+
+.btn-shuffle {
+  background-color: #03095f;
+  transition: transform .1s ease;
+}
+
+.btn-shuffle:active {
+  transform: translateY(15px);
 }
 
 /* Css for Button Icons Github and Linked In */
